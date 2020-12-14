@@ -1,6 +1,6 @@
-import responseHandler from '../utils/responseHandler.util';
-import customMessage from '../utils/customMessage';
-import statusCode from '../utils/statusCodes';
+import responseHandler from '../constants/responseHandler.util';
+import customMessage from '../constants/customMessage';
+import statusCode from '../constants/statusCodes';
 
 const { updatedResponse } = responseHandler;
 const { ok } = statusCode;
