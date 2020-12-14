@@ -1,8 +1,8 @@
 import chai, { expect } from 'chai';
 import chaiHttp from 'chai-http';
 import server from '../../../index';
-import customMessage from '../../utils/customMessage';
-import statusCode from '../../utils/statusCodes';
+import customMessage from '../../constants/customMessage';
+import statusCode from '../../constants/statusCodes';
 
 chai.use(chaiHttp);
 chai.should();
