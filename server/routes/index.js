@@ -5,4 +5,4 @@ const app = express.Router();
 
 app.use(welcomeRoute);
 
-export default welcomeRoute;
+export default app;
